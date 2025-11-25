@@ -3,9 +3,9 @@ import '../styles/global.css';
 import Content from './content.astro';
 ---
 
-<div id="container" class="p-6 text-justify">
-    <main class="mx-auto mt-6 max-w-2xl px-4">
-        <section id="hero" class="flex flex-col items-start">
+<div id="container" class="">
+    <main class="mx-auto mt-6 max-w-3xl">
+        <section id="hero" class="flex flex-col items-start p-6 rounded-sm shadow-md hover:bg-green-900 transition">
             <h1 class="text-3xl font-bold underline text-white">
                 Hi, I'm Alex!
             </h1>
@@ -16,7 +16,7 @@ import Content from './content.astro';
                 I like to do something new. I am a fast learner. I am eager to be challenged in order to grow and improve my communication and professional IT skills gained through previous experiences in the IT sector. In meantime, i am also a food enthusiast who loves to cook and try new recipes. I am gamer as well who loves to play video games during my free time and quite competitive.
             </h1>
         </section>
-        <section id="socialmediaicon">
+        <section id="socialmediaicon" class="p-6">
             <h2 class="text-2xl font-bold mt-6 mb-4 text-white">Find me on</h2>
             <div class="flex justify-between items-center">    
                 <div class="flex space-x-4">
@@ -87,8 +87,8 @@ import Content from './content.astro';
             </div>
             
         </section>
-        <section id="workexperience" class="flex flex-col">
-            <h2 class="text-2xl font-bold mt-6 mb-4 text-white">Work Experience</h2>
+        <section id="workexperience" class="flex flex-col p-6 rounded-sm shadow-md hover:bg-green-900 transition">
+            <h2 class="text-2xl font-bold mb-4 text-white hover:underline decoration-wavy">Work Experience</h2>
             <Content 
                 title="Entrepreneur" 
                 time="September 2022 - Present" 
@@ -102,8 +102,8 @@ import Content from './content.astro';
                 desc="Being a Pega Developer at Bank Sinarmas, My job is to develop and maintain a web based application. Application that i develop is using PegaSystem. PegaSystem is a web based platform to help developer in develop a web base application. At Bank Sinarmas, I developed an web based application that help customer service in recording customer data and create a report for SPV and Branch Head." 
             />
         </section>
-        <section id="project">
-            <h2 class="text-2xl font-bold mt-6 mb-4 text-white">Project</h2>
+        <section id="project" class="flex flex-col p-6 rounded-sm shadow-md hover:bg-green-900 transition">
+            <h2 class="text-2xl font-bold mb-4 text-white hover:underline decoration-wavy">Project</h2>
             <Content 
                 title="Personal CV Website" 
                 time="November 2025 - November 2025" 
