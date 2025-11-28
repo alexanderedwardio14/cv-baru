@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import Content from './content.astro';
 import Recipes from './recipes.astro';
+import Project from './project.astro';
 ---
 
 <div id="container" class="">
@@ -105,24 +106,28 @@ import Recipes from './recipes.astro';
         </section>
         <section id="project" class="flex flex-col p-6 rounded-sm shadow-md hover:bg-green-900 transition">
             <h2 class="text-2xl font-bold mb-4 text-white hover:underline decoration-wavy">Project</h2>
-            <Content 
+            <Project 
                 title="Personal CV Website" 
-                time="November 2025 - November 2025" 
-                place="Personal Project" 
+                image="" 
+                link="/" 
+                github="https://github.com/alexanderedwardio14/cv-baru"
                 desc="Creating a personal CV website using Astro framework and Tailwind CSS for styling. The website showcases my work experience, skills, and projects in a clean and modern design." 
             />
-            <Content 
-                title="Fasser.co.id" 
-                time="June 2024 - July 2024" 
-                place="Client Project" 
-                desc="Landing page for Fasser Company website using Vanilla HTML, CSS, Javascript. The website mainly for showcases an IT networking products. The website is designed to be responsive and user-friendly, ensuring a seamless experience across all devices." 
+            <Project 
+                title="Fasser.co.id"
+                image=""
+                link="https://fasser.co.id/" 
+                github=""
+                desc="Landing page for Fasser Company website using Vanilla HTML, CSS, Javascript. The website mainly for showcases an IT networking products. The website is designed to be responsive and user-friendly, ensuring a seamless experience across all devices."
             />
-            <Content 
-                title="Haganerack.co.id" 
-                time="May 2023 - July 2023" 
-                place="Client Project" 
-                desc="Landing page for Haganerack Company website using Wordpress. The website mainly for showcases a rack server products related." 
+            <Project 
+                title="Haganerack.co.id"
+                image=""
+                link="https://haganerack.co.id/" 
+                github=""
+                desc="Landing page for Haganerack Company website using Wordpress. The website mainly for showcases a rack server products related."
             />
+            
         </section>
         <section id="recipes" class="flex flex-col p-6 rounded-sm shadow-md hover:bg-green-900 transition">
             <h2 class="text-2xl font-bold mb-4 text-white hover:underline decoration-wavy">Recipes</h2>
