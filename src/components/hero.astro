@@ -7,7 +7,7 @@ import Project from './project.astro';
 
 <div id="container" class="">
     <main class="mx-auto mt-6 max-w-3xl">
-        <section id="hero" class="flex flex-col items-start p-6 rounded-sm shadow-md hover:bg-green-900 transition">
+        <section id="hero" class="flex flex-col items-start p-6 rounded-sm shadow-md hover:border-green-400 border-4 border-zinc-900 transition">
             <h1 class="text-3xl font-bold underline text-white">
                 Hi, I'm Alex!
             </h1>
@@ -89,7 +89,7 @@ import Project from './project.astro';
             </div>
             
         </section>
-        <section id="workexperience" class="flex flex-col p-6 rounded-sm shadow-md hover:bg-green-900 transition">
+        <section id="workexperience" class="flex flex-col p-6 rounded-sm shadow-md hover:border-green-400 border-4 border-zinc-900 transition">
             <h2 class="text-2xl font-bold mb-4 text-white hover:underline decoration-wavy">Work Experience</h2>
             <Content 
                 title="Entrepreneur" 
@@ -104,7 +104,7 @@ import Project from './project.astro';
                 desc="Being a Pega Developer at Bank Sinarmas, My job is to develop and maintain a web based application. Application that i develop is using PegaSystem. PegaSystem is a web based platform to help developer in develop a web base application. At Bank Sinarmas, I developed an web based application that help customer service in recording customer data and create a report for SPV and Branch Head." 
             />
         </section>
-        <section id="project" class="flex flex-col p-6 rounded-sm shadow-md hover:bg-green-900 transition">
+        <section id="project" class="flex flex-col p-6 rounded-sm shadow-md hover:border-green-400 border-4 border-zinc-900 transition">
             <h2 class="text-2xl font-bold mb-4 text-white hover:underline decoration-wavy">Project</h2>
             <Project 
                 title="Personal CV Website" 
@@ -128,23 +128,6 @@ import Project from './project.astro';
                 desc="Landing page for Haganerack Company website using Wordpress. The website mainly for showcases a rack server products related."
             />
             
-        </section>
-        <section id="recipes" class="flex flex-col p-6 rounded-sm shadow-md hover:bg-green-900 transition">
-            <h2 class="text-2xl font-bold mb-4 text-white hover:underline decoration-wavy">Recipes</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <Recipes 
-                    name="Spaghetti Aglio e Olio" 
-                    image="/recipes/spaghetti-aglio-e-olio.jpg" 
-                    ingredients={["200g spaghetti", "4 cloves garlic, thinly sliced", "1/2 cup extra virgin olive oil", "1/4 tsp red pepper flakes", "Salt to taste", "Fresh parsley, chopped", "Grated Parmesan cheese (optional)"]} 
-                    steps={["Cook spaghetti according to package instructions until al dente. Drain and set aside.", "In a large skillet, heat olive oil over medium heat. Add the sliced garlic and red pepper flakes. Sauté until the garlic is golden brown, being careful not to burn it.", "Add the cooked spaghetti to the skillet and toss to coat in the garlic oil. Season with salt to taste.", "Remove from heat and stir in chopped parsley.", "Serve immediately, topped with grated Parmesan cheese if desired."]} 
-                />
-                <Recipes 
-                    name="Chicken Teriyaki" 
-                    image="/recipes/chicken-teriyaki.jpg" 
-                    ingredients={["2 boneless, skinless chicken breasts", "1/4 cup soy sauce", "2 tbsp mirin", "2 tbsp sake", "1 tbsp sugar", "1 clove garlic, minced", "1 tsp ginger, grated", "Sesame seeds and chopped green onions for garnish"]} 
-                    steps={["In a bowl, combine soy sauce, mirin, sake, sugar, minced garlic, and grated ginger to make the teriyaki sauce.", "Heat a skillet over medium heat and add a little oil. Cook the chicken breasts until browned on both sides and cooked through.", "Pour the teriyaki sauce over the chicken in the skillet. Let it simmer until the sauce thickens and coats the chicken.", "Remove from heat and slice the chicken.", "Serve over rice, garnished with sesame seeds and chopped green onions."]} 
-                />
-            </div>
         </section>
     </main>
 </div>
